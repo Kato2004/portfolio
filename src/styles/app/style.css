@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --tertiary-color: #318ce7;
+  --quaternary-color: #bceeff;
+  --brightness-hover: brightness(70%);
+}
+
+/*#318ce7a0*/
+
+body,
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+* a {
+  color: #000;
+  text-decoration: none;
+}
+
+* a:hover {
+  transition: 0.3s ease;
+}

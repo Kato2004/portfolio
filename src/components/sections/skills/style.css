@@ -1,0 +1,30 @@
+.skills div {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: 5px;
+  scrollbar-width: auto;
+  scrollbar-color: #3584e4 #99c1f1;
+}
+
+.skills div::-webkit-scrollbar {
+  width: 16px;
+}
+
+.skills div::-webkit-scrollbar-track {
+  background: var(--quaternary-color);
+}
+
+.skills div::-webkit-scrollbar-thumb {
+  background-color: var(--tertiary-color);
+  border-radius: 20px;
+  border: 10px none var(--primary-color);
+}
+
+@media (max-width: 1080px) {
+  .skills div {
+    justify-content: left;
+    padding-bottom: 10px;
+  }
+}

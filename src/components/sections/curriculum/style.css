@@ -1,0 +1,52 @@
+.curriculum div:last-child img {
+  width: 490px;
+}
+
+.curriculum-info {
+  display: flex;
+  gap: 15px;
+}
+
+.curriculum-info a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  padding: 15px 25px 10px 25px;
+  border-radius: 10px;
+  background-color: cyan;
+  font-size: 16px;
+}
+
+.curriculum-info a svg {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.curriculum-info a:hover {
+  filter: var(--brightness-hover);
+}
+
+.curriculum-info a:first-child {
+  background-color: #318ce7;
+  color: #bceeff;
+}
+
+.curriculum-info a:last-child {
+  color: #318ce7;
+  background-color: #bceeff;
+}
+
+@media (max-width: 1080px) {
+  .curriculum-info {
+    flex-direction: column;
+  }
+
+  .curriculum-info a {
+    justify-content: center;
+  }
+
+  .curriculum div:last-child img {
+    width: 100%;
+  }
+}

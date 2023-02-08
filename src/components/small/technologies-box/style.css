@@ -1,0 +1,22 @@
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  width: 95px;
+  gap: 15px;
+}
+
+.tech-box span:first-child {
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--quaternary-color);
+  color: var(--tertiary-color);
+  padding: 10px;
+  border-radius: 100%;
+}

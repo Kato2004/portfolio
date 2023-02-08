@@ -1,0 +1,25 @@
+.title {
+  position: relative;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 3px;
+  left: 0;
+  top: 10px;
+  background-color: #000;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 3px;
+  right: 0;
+  top: 10px;
+  background-color: #000;
+}

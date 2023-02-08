@@ -1,0 +1,21 @@
+.grid-projects {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 2%;
+  row-gap: 15px;
+}
+
+@media (max-width: 1400px) {
+  .grid-projects {
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-projects {
+    grid-template-columns: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
