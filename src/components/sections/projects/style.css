@@ -16,6 +16,6 @@
   .grid-projects {
     grid-template-columns: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
   }
 }

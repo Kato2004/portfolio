@@ -14,7 +14,6 @@
   border: none;
   padding: 15px 25px 10px 25px;
   border-radius: 10px;
-  background-color: cyan;
   font-size: 16px;
 }
 
@@ -28,13 +27,13 @@
 }
 
 .curriculum-info a:first-child {
-  background-color: #318ce7;
-  color: #bceeff;
+  background-color: var(--tertiary-color);
+  color: var(--quaternary-color);
 }
 
 .curriculum-info a:last-child {
-  color: #318ce7;
-  background-color: #bceeff;
+  color: var(--tertiary-color);
+  background-color: var(--quaternary-color);
 }
 
 @media (max-width: 1080px) {

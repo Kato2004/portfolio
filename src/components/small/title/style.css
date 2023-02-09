@@ -11,7 +11,7 @@
   height: 3px;
   left: 0;
   top: 10px;
-  background-color: #000;
+  background-color: var(--primary-color);
 }
 
 .title::after {
@@ -21,5 +21,5 @@
   height: 3px;
   right: 0;
   top: 10px;
-  background-color: #000;
+  background-color: var(--primary-color);
 }
