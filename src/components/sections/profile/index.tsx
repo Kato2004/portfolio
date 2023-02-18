@@ -23,7 +23,12 @@ export const Profile = () => {
   return (
     <section className="profile">
       <div className="first-part">
-        <img src={`${apiImg?.avatar_url}`} alt="" />
+        <img
+          src={`${apiImg?.avatar_url}`}
+          width={"200px"}
+          height={"200px"}
+          alt="Imagem de perfil de Kauã"
+        />
         <div>
           <span>Por onde me encontrar:</span>
           <ContactLinks />
