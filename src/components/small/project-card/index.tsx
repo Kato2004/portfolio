@@ -25,7 +25,9 @@ export const ProjectCard = ({
             return <span key={tag}>{tag}</span>;
           })}
         </div>
-        <a href={projectSrc}>Veja mais</a>
+        <a href={projectSrc} target="_blank">
+          Veja mais
+        </a>
       </div>
     </article>
   );

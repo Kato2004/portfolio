@@ -17,6 +17,7 @@ import { FaRegMoon as MoonIcon } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { changeThemes, darkTheme, lightTheme } from "../../styles/change-theme";
 import "./style.css";
+import imgProjectGame from "../../assets/jogo-da-velha-print.jpg";
 
 export type ChangeTheme = boolean;
 
@@ -71,11 +72,12 @@ export const Content = () => {
         <MyProjects
           projects={[
             {
-              imgSrc: "",
-              projectSrc: "",
-              resume: "A simple project with React and Typescript ",
-              tags: ["React", "Typescript"],
-              title: "A simple project A",
+              imgSrc: imgProjectGame,
+              projectSrc: "https://jogo-da-velha-six-psi.vercel.app/",
+              resume:
+                "Projeto simples feito somente com HTML, CSS e Javascript do tão famoso e conhecido jogo da velha",
+              tags: ["Javascript", "CSS"],
+              title: "Jogo da velha",
             },
             {
               imgSrc: "",
