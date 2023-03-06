@@ -18,6 +18,7 @@ import { useState, useEffect } from "react";
 import { changeThemes, darkTheme, lightTheme } from "../../styles/change-theme";
 import "./style.css";
 import imgProjectGame from "../../assets/jogo-da-velha-print.jpg";
+import moviesBank from "../../assets/moviedb.jpg";
 
 export type ChangeTheme = boolean;
 
@@ -80,11 +81,12 @@ export const Content = () => {
               title: "Jogo da velha",
             },
             {
-              imgSrc: "",
-              projectSrc: "",
-              resume: "A simple project with React and Typescript ",
-              tags: ["React", "Typescript"],
-              title: "A simple project B",
+              imgSrc: moviesBank,
+              projectSrc: "https://movies-bank-git-master-kato2004.vercel.app/",
+              resume:
+                "Aplicação que utilizar a API do TMDB para apresentar filmes",
+              tags: ["React", "Typescript", "Tailwind"],
+              title: "Movies Bank",
             },
             {
               imgSrc: "",
@@ -92,13 +94,6 @@ export const Content = () => {
               resume: "A simple project with React and Typescript ",
               tags: ["React", "Typescript"],
               title: "A simple project C",
-            },
-            {
-              imgSrc: "",
-              projectSrc: "",
-              resume: "A simple project with React and Typescript ",
-              tags: ["React", "Typescript"],
-              title: "A simple project D",
             },
           ]}
         />

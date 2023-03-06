@@ -16,7 +16,7 @@ export const ProjectCard = ({
 }: IProjectCard) => {
   return (
     <article className="project-card">
-      <img src={imgSrc} alt="" />
+      <img src={imgSrc} alt="printscreen do projeto" />
       <div>
         <h5>{title}</h5>
         <p>{resume}</p>
