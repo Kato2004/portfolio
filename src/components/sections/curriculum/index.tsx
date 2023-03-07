@@ -4,18 +4,22 @@ import {
 } from "react-icons/tb";
 import "./style.css";
 import { Title } from "../../small/title";
+import curriculumPDF from "./curriculo-kaua.pdf";
 
 interface ICurriculum {
-  curriculumURL: string;
+  curriculumURL?: string;
   imgGithubURL: string;
 }
 
-export const Curriculum = ({ curriculumURL, imgGithubURL }: ICurriculum) => {
+export const Curriculum = ({
+  curriculumURL = curriculumPDF,
+  imgGithubURL,
+}: ICurriculum) => {
   return (
     <section className="curriculum content">
       <Title>Currículo</Title>
       <div className="curriculum-info">
-        <a href={curriculumURL}>
+        <a target="_blank" href={curriculumURL} download={curriculumURL}>
           <FileDownloadIcon />
           Download Currículo
         </a>

@@ -19,6 +19,7 @@ import { changeThemes, darkTheme, lightTheme } from "../../styles/change-theme";
 import "./style.css";
 import imgProjectGame from "../../assets/jogo-da-velha-print.jpg";
 import moviesBank from "../../assets/moviedb.jpg";
+import todoListJpg from "../../assets/todo-list.jpg";
 
 export type ChangeTheme = boolean;
 
@@ -66,7 +67,6 @@ export const Content = () => {
           ]}
         />
         <Curriculum
-          curriculumURL="/"
           //Theme claro
           imgGithubURL={themeDark ? darkCard : lightCard}
         />
@@ -89,11 +89,11 @@ export const Content = () => {
               title: "Movies Bank",
             },
             {
-              imgSrc: "",
-              projectSrc: "",
-              resume: "A simple project with React and Typescript ",
+              imgSrc: todoListJpg,
+              projectSrc: "https://todo-list-react-vert-one.vercel.app",
+              resume: "",
               tags: ["React", "Typescript"],
-              title: "A simple project C",
+              title: "Todo-list",
             },
           ]}
         />
