@@ -41,10 +41,10 @@ export const Profile = () => {
         </header>
         <div>
           <p>
-            Futuro software-enginner, dependente e apaixonado por tecnologia no
+            Futuro desenvolvedor, dependente e apaixonado por tecnologia no
             geral, porém, meu foco de carreira é o front-end com tecnologias
-            como javascript, typescript, reac e css. Além disso sempre busco
-            aprender cada vez mais.
+            como javascript, typescript, react e css. Além disso sempre busco
+            aprender cada vez mais e estar cada vez mais atualizado
           </p>
         </div>
       </div>
