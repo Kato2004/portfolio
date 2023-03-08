@@ -91,9 +91,10 @@ export const Content = () => {
             {
               imgSrc: todoListJpg,
               projectSrc: "https://todo-list-react-vert-one.vercel.app",
-              resume: "",
+              resume:
+                "To do com prioridade de execução e possibilidade de criar e excluir novas tarefas",
               tags: ["React", "Typescript"],
-              title: "Todo-list",
+              title: "To do",
             },
           ]}
         />
